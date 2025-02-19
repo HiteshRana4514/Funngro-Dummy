@@ -16,16 +16,16 @@ function Header() {
                                 <ul className="nav-links">
                                     <li>
                                         <Link 
-                                            to="/" 
-                                            className={`nav-link ${location.pathname === "/" ? "active" : ""}`}
+                                            to="/Funngro-Dummy" 
+                                            className={`nav-link ${location.pathname === "/Funngro-Dummy" ? "active" : ""}`}
                                         >
                                             Home
                                         </Link>
                                     </li>
                                     <li>
                                         <Link 
-                                            to="/teen" 
-                                            className={`nav-link ${location.pathname === "/teen" ? "active" : ""}`}
+                                            to="/Funngro-Dummy/teen" 
+                                            className={`nav-link ${location.pathname === "/Funngro-Dummy/teen" ? "active" : ""}`}
                                         >
                                             Teen
                                         </Link>
