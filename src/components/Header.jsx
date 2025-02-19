@@ -16,8 +16,8 @@ function Header() {
                                 <ul className="nav-links">
                                     <li>
                                         <Link 
-                                            to="/Funngro-Dummy" 
-                                            className={`nav-link ${location.pathname === "/Funngro-Dummy" ? "active" : ""}`}
+                                            to="/Funngro-Dummy/" 
+                                            className={`nav-link ${location.pathname === "/Funngro-Dummy/" ? "active" : ""}`}
                                         >
                                             Home
                                         </Link>
