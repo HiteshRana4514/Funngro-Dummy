@@ -1,0 +1,20 @@
+@media screen and (min-width: 720px){
+    .mob-menu{
+        display: none;
+    } 
+    .nav-icons{
+        display: flex;
+        flex-direction: row;
+        position: static;
+        justify-content: end;
+        align-items: center;
+        gap: 30px;
+    }
+    .nav-links{
+        padding: 0;
+        display: flex;
+    }
+    .login-btn {
+        margin-bottom: 0px;
+    }
+}
